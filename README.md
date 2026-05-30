@@ -28,3 +28,36 @@ An interactive **Microsoft Excel** project that analyzes 1,000 customer demograp
 1. Open `Bike_Sales_Analysis.xlsx` in Microsoft Excel.
 2. Navigate to the **`Dashboard`** tab.
 3. Use the left-hand slicer panels to instantly filter and analyze different customer segments.
+
+
+
+# COVID-19 Data Exploration Project
+
+An exploratory data analysis (EDA) project using **SQL** to analyze global COVID-19 datasets. This project transforms raw pandemic metrics into structured insights, focusing on infection rates, mortality probabilities, and global vaccination rollouts.
+
+---
+
+## 📊 Project Overview
+The objective of this project is to query and analyze historical pandemic data across different dimensions (countries, continents, and global aggregates) to understand the progression and impact of COVID-19.
+
+The analysis breaks down into three core phases:
+1. **Infection & Mortality Impact:** Calculating the probability of dying if infected and tracking the percentage of the population infected over time.
+2. **Regional Breakdown:** Identifying the countries and continents with the highest infection rates and death counts relative to their populations.
+3. **Vaccination Progression:** Tracking cumulative, rolling vaccination numbers against country populations to evaluate global coverage.
+
+---
+
+## 🛠️ Advanced SQL Techniques Demonstrated
+
+* **Data Joins & Aggregations:** Combining tables (`covid_deaths` and `covid_vaccinations`) using multiple primary keys (`location`, `date`) and performing deep analytical aggregations (`SUM`, `MAX`, `GROUP BY`).
+* **Window Functions:** Utilizing `SUM(...) OVER (PARTITION BY...)` to compute running totals of daily new vaccinations dynamically across geographical locations.
+* **CTEs (Common Table Expressions):** Implementing `WITH` clauses to build temporary named result sets for multi-step calculations on newly aggregated rolling numbers.
+* **Temporary Tables:** Designing and populating local `TEMP TABLE` schemas to isolate, optimize, and compute percentage metrics smoothly.
+* **Database Views:** Setting up structured database views (`CREATE VIEW`) to save complex query logic for future business intelligence visualization tools.
+
+---
+
+## 🚀 How to Run the Script
+1. Ensure you have access to a SQL database containing populated schemas for `covid_deaths` and `covid_vaccinations`.
+2. Import the script `COVID19_PROJECT.sql` into your query editor.
+3. Execute the script sequentially to generate target outputs, temporary data frameworks, and ready-to-visualize tables.
