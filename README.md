@@ -23,8 +23,6 @@ An interactive **Microsoft Excel** project that analyzes 1,000 customer demograp
 * **Cross-Filtering:** Real-time visual updates across all pivot charts upon selecting a filter.
 
 
-<img width="976" height="740" alt="Screenshot 2026-05-16 213658" src="https://github.com/user-attachments/assets/a378f24b-5b06-4808-b337-798c0426dc96" />
-
 
 ---
 
