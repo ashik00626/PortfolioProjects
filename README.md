@@ -24,12 +24,6 @@ An interactive **Microsoft Excel** project that analyzes 1,000 customer demograp
 
 ---
 
-##  How to Use
-1. Open `Bike_Sales_Analysis.xlsx` in Microsoft Excel.
-2. Navigate to the **`Dashboard`** tab.
-3. Use the left-hand slicer panels to instantly filter and analyze different customer segments.
-
-
 
 # COVID-19 Data Exploration Project
 
@@ -57,7 +51,4 @@ The analysis breaks down into three core phases:
 
 ---
 
-## 🚀 How to Run the Script
-1. Ensure you have access to a SQL database containing populated schemas for `covid_deaths` and `covid_vaccinations`.
-2. Import the script `COVID19_PROJECT.sql` into your query editor.
-3. Execute the script sequentially to generate target outputs, temporary data frameworks, and ready-to-visualize tables.
+
