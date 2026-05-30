@@ -51,3 +51,23 @@ The analysis breaks down into three core phases:
 
 ---
 
+
+# Nashville Housing Data Cleaning Project
+
+A dedicated data cleaning project using **SQL** to transform raw Nashville housing market records into a structured, clean, and analysis-ready dataset.
+
+---
+
+## 📊 Project Overview
+The primary focus of this project is database normalization and preprocessing. It addresses structural anomalies, missing values, unparsed text strings, and duplicate records to ensure absolute data integrity.
+
+---
+
+## 🛠️ Data Cleaning Steps & SQL Techniques
+
+* **Handling Missing Data:** Resolved null values in `PropertyAddress` by executing a self-join on matching `ParcelID` attributes, using the `COALESCE` function to populate blank entries.
+* **String Parsing & Text Splitting:** Deconstructed unified string fields (`PropertyAddress` and `OwnerAddress`) into clean, independent attributes (`Address`, `City`, `State`) using the `SPLIT_PART` function.
+* **Duplicate Elimination:** Implemented a Common Table Expression (CTE) alongside the `ROW_NUMBER()` window function partitioned across primary keys to cleanly target and delete duplicate records.
+* **Schema Optimization:** Altered table structures to drop redundant or obsolete raw source columns (`OwnerAddress`, `TaxDistrict`, `PropertyAddress`), reducing the table's memory footprint.
+
+---
