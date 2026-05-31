@@ -45,7 +45,7 @@ The analysis breaks down into three core phases:
 
 ---
 
-## 🛠️ Advanced SQL Techniques Demonstrated
+## 🛠️ Steps and SQL Techniques 
 
 * **Data Joins & Aggregations:** Combining tables (`covid_deaths` and `covid_vaccinations`) using multiple primary keys (`location`, `date`) and performing deep analytical aggregations (`SUM`, `MAX`, `GROUP BY`).
 * **Window Functions:** Utilizing `SUM(...) OVER (PARTITION BY...)` to compute running totals of daily new vaccinations dynamically across geographical locations.
