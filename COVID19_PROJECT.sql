@@ -156,4 +156,4 @@ JOIN china.covid_deaths vac
 	AND dea.date = vac.date
 WHERE dea.continent is not null;
 --ORDER BY 2,3
-
+"\copy (SELECT * FROM orders WHERE date > '2024-01-01') TO 'C:/temp/query_output.csv' WITH CSV HEADER DELIMITER ',';"	
