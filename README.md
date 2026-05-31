@@ -22,7 +22,9 @@ An interactive **Microsoft Excel** project that analyzes 1,000 customer demograp
 * **Interactive Slicers:** Dynamic filtering by *Marital Status*, *Education*, *Occupation*, and *Region*.
 * **Cross-Filtering:** Real-time visual updates across all pivot charts upon selecting a filter.
 
+## Dashboard Preview
 
+<img width="1273" height="779" alt="Screenshot 2026-05-31 220515" src="https://github.com/user-attachments/assets/e0b49bae-f1ce-4d21-acc0-a3545ced664a" />
 
 ---
 
