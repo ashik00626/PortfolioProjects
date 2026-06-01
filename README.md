@@ -53,6 +53,9 @@ The analysis breaks down into three core phases:
 * **Temporary Tables:** Designing and populating local `TEMP TABLE` schemas to isolate, optimize, and compute percentage metrics smoothly.
 * **Database Views:** Setting up structured database views (`CREATE VIEW`) to save complex query logic for future business intelligence visualization tools.
 
+Qurty_output
+<img width="824" height="702" alt="Screenshot 2026-06-01 181559" src="https://github.com/user-attachments/assets/11d8eff8-926b-400e-b884-f4e4617c8a90" />
+
 ---
 
 
