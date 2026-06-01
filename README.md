@@ -77,6 +77,10 @@ The primary focus of this project is database normalization and preprocessing. I
 * **Duplicate Elimination:** Implemented a Common Table Expression (CTE) alongside the `ROW_NUMBER()` window function partitioned across primary keys to cleanly target and delete duplicate records.
 * **Schema Optimization:** Altered table structures to drop redundant or obsolete raw source columns (`OwnerAddress`, `TaxDistrict`, `PropertyAddress`), reducing the table's memory footprint.
 
+## Query_output_after_cleaning
+<img width="1535" height="703" alt="Screenshot 2026-06-01 185444" src="https://github.com/user-attachments/assets/3d8287ed-85db-4b47-9c6b-d6d74391d151" />
+<img width="1534" height="698" alt="Screenshot 2026-06-01 185537" src="https://github.com/user-attachments/assets/5052aa7b-cd60-4a60-b53d-2e8427d7ebf4" />
+
 ---
 
 
