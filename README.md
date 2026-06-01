@@ -122,4 +122,7 @@ The script extracts the top 100 corporate financial powerhouses in the United St
 | **Employees** | Numeric Count | Strip-cleansed numerical volume metrics |
 | **Headquarters** | Text Location | Location string parsing (City, State splitting ready) |
 
+## Data_preview_after_scraping
+<img width="1156" height="498" alt="Screenshot 2026-06-01 191027" src="https://github.com/user-attachments/assets/b357ffc7-e416-4903-bf21-ae8b27026220" />
+
 ---
